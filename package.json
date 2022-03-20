@@ -4,7 +4,7 @@
   },
   "name": "weather-geolocation",
   "description": "Getting user location by checking the weather",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "devDependencies": {},
   "scripts": {

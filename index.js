@@ -1,4 +1,4 @@
-let checkLocation=async function() {
+const checkLocation=async function() {
     if(typeof fetch=="undefined") {
         const fetch=require("cross-fetch");
     }
@@ -19,9 +19,4 @@ let checkLocation=async function() {
         };
 }
 module.exports=checkLocation;
-try {
-    export default checkLocation;
-}
-catch(e) {
-    console.log(e);
-}
+// For web:
